@@ -1,0 +1,24 @@
+#!/bin/sh
+export PROJ_HOME=C:/Users/javau/dev/projects/sb-j2ee/sboot-rest-postgres-all
+
+echo "checking node -v"
+node -v
+echo "checking npm -v"
+npm -v
+echo "checking ng v"
+ng v
+echo "checking npm list react my-react-app"
+cd $PROJ_HOME/src/main/webapp/my-react-app
+npm list react
+echo "checking npm view react version"
+npm view react version
+echo "checking angularclient"
+cd $PROJ_HOME/src/main/webapp/angularclient
+npm fund
+echo "checking myreactnative"
+cd $PROJ_HOME/src/main/webapp/myreactnative
+npm fund
+echo "checking myreactnext"
+cd $PROJ_HOME/src/main/webapp/myreactnext
+npm fund
+echo "checking done"

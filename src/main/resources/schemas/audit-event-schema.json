@@ -1,0 +1,14 @@
+{
+  "eventId": "uuidv7",
+  "timestamp": "ISO-8601",
+  "userId": "dr-smith",
+  "userRole": "physician",
+  "action": "view",
+  "entityType": "PatientRecord",
+  "entityId": "patient-123",
+  "sourceIp": "192.168.1.1",
+  "metadata": {
+    "location": "Hospital A",
+    "deviceId": "workstation-xyz"
+  }
+}

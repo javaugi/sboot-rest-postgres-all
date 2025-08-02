@@ -1,0 +1,9 @@
+#!/bin/sh
+reset
+echo "Running mvn clean install"
+mvn --version
+mvn clean install
+echo "Running mvn spring-boot:run"
+mvn spring-boot:run
+#./mvnw spring-boot:run -Dspring-boot.run.profiles=mi,david-remote -Dspring-boot.run.arguments=--vaadin.proKey=david@ciminc.com/pro-7c53d5b5-188b-4f2b-a4ea-3efc4b5dfc61
+

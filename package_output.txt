@@ -1,0 +1,460 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< com.jinvindia:jinvidia-saas-carloner >----------------
+[INFO] Building jinvidia-saas-carloner 1.0.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] 2 problems were encountered while building the effective model for org.apache.yetus:audience-annotations:jar:0.5.0 during dependency collection step for project (use -X to see details)
+[WARNING] The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ jinvidia-saas-carloner ---
+[INFO] Deleting E:\springtutorial\cimathformulas\target
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ jinvidia-saas-carloner ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 3 resources
+[INFO] Copying 25 resources
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ jinvidia-saas-carloner ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 1091 source files with javac [debug parameters release 17] to target\classes
+[INFO] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[INFO] /E:/springtutorial/cimathformulas/src/main/java/com/spring5/AiConfig.java: Some input files use or override a deprecated API.
+[INFO] /E:/springtutorial/cimathformulas/src/main/java/com/spring5/AiConfig.java: Recompile with -Xlint:deprecation for details.
+[INFO] /E:/springtutorial/cimathformulas/src/main/java/com/compositevisitor/EmployeeAbstract.java: Some input files use unchecked or unsafe operations.
+[INFO] /E:/springtutorial/cimathformulas/src/main/java/com/compositevisitor/EmployeeAbstract.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ jinvidia-saas-carloner ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ jinvidia-saas-carloner ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 39 source files with javac [debug parameters release 17] to target\test-classes
+[INFO] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[INFO] /E:/springtutorial/cimathformulas/src/test/java/com/spring5/repository/ContactRepositoryTest.java: E:\springtutorial\cimathformulas\src\test\java\com\spring5\repository\ContactRepositoryTest.java uses or overrides a deprecated API.
+[INFO] /E:/springtutorial/cimathformulas/src/test/java/com/spring5/repository/ContactRepositoryTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] /E:/springtutorial/cimathformulas/src/test/java/com/sisllc/mathformulas/impl/UnionIntersDiffCompleTest.java: Some input files use unchecked or unsafe operations.
+[INFO] /E:/springtutorial/cimathformulas/src/test/java/com/sisllc/mathformulas/impl/UnionIntersDiffCompleTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- surefire:3.5.2:test (default-test) @ jinvidia-saas-carloner ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+09:52:08.853 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.interview.capitalonesignalmock.C1CodeSignalTest]: C1CodeSignalTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:09.065 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.interview.capitalonesignalmock.Code1WarmUpSecondLargestTest]: Code1WarmUpSecondLargestTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:09.089 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.interview.capitalonesignalmock.Code2MediumLongestSubstringTest]: Code2MediumLongestSubstringTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:09.110 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.interview.capitalonesignalmock.Code3HardMaxPathSumTest]: Code3HardMaxPathSumTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:09.128 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.interview.capitalonesignalmock.Code4ExpertRateLimiterTest]: Code4ExpertRateLimiterTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:09.145 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.interview.codesignal.CodeSignalTest]: CodeSignalTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:09.193 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.mycompany.davidlee.InventoryTest]: InventoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:09.217 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.mycompany.davidlee.ItemTest]: ItemTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:09.252 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.mycompany.davidlee.StoreRegisterTest]: StoreRegisterTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:09.290 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.sisllc.mathformulas.ci.ch04.BinarySearchTreeTest]: BinarySearchTreeTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:09.313 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.sisllc.mathformulas.ci.ch04.GraphSearchTest]: GraphSearchTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:09.335 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.sisllc.mathformulas.impl.FactorNumberIntoPrimeIntArrayTest]: FactorNumberIntoPrimeIntArrayTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:09.366 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.sisllc.mathformulas.impl.FibonacciRecursiveTest]: FibonacciRecursiveTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:09.397 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.sisllc.mathformulas.impl.MortgageCalculatorTest]: MortgageCalculatorTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:09.479 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.sisllc.mathformulas.impl.PrimeNumbersTest]: PrimeNumbersTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:09.526 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.sisllc.mathformulas.impl.ProductOfPrimesBetweenLToRTest]: ProductOfPrimesBetweenLToRTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:09.558 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.sisllc.mathformulas.impl.SumOfSquaresTest]: SumOfSquaresTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:09.580 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.sisllc.mathformulas.impl.UnionIntersDiffCompleTest]: UnionIntersDiffCompleTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:09.598 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.sisllc.mathformulas.stringmanipulation.CapitalizeFirstLetterTest]: CapitalizeFirstLetterTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:09.614 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.sisllc.mathformulas.stringmanipulation.ExampleTest]: ExampleTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:09.633 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.sisllc.mathformulas.utils.PhoneNumberExtensionTest]: PhoneNumberExtensionTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:09.649 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.sisllc.mathformulas.utils.ValidateNpiWithRegistryTest]: ValidateNpiWithRegistryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:09.725 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.spring5.ProjectTest]: ProjectTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:09.802 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.interview.capitalonesignalmock.C1CodeSignalTest]: C1CodeSignalTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:09.818 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.interview.capitalonesignalmock.Code1WarmUpSecondLargestTest]: Code1WarmUpSecondLargestTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:09.827 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.interview.capitalonesignalmock.Code2MediumLongestSubstringTest]: Code2MediumLongestSubstringTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:09.840 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.interview.capitalonesignalmock.Code3HardMaxPathSumTest]: Code3HardMaxPathSumTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:09.852 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.interview.capitalonesignalmock.Code4ExpertRateLimiterTest]: Code4ExpertRateLimiterTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:09.862 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.interview.codesignal.CodeSignalTest]: CodeSignalTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:09.878 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.mycompany.davidlee.InventoryTest]: InventoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:09.888 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.mycompany.davidlee.ItemTest]: ItemTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:09.899 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.mycompany.davidlee.StoreRegisterTest]: StoreRegisterTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:09.908 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.sisllc.mathformulas.ci.ch04.BinarySearchTreeTest]: BinarySearchTreeTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:09.921 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.sisllc.mathformulas.ci.ch04.GraphSearchTest]: GraphSearchTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:09.931 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.sisllc.mathformulas.impl.FactorNumberIntoPrimeIntArrayTest]: FactorNumberIntoPrimeIntArrayTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:09.940 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.sisllc.mathformulas.impl.FibonacciRecursiveTest]: FibonacciRecursiveTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:09.950 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.sisllc.mathformulas.impl.MortgageCalculatorTest]: MortgageCalculatorTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:09.960 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.sisllc.mathformulas.impl.PrimeNumbersTest]: PrimeNumbersTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:09.972 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.sisllc.mathformulas.impl.ProductOfPrimesBetweenLToRTest]: ProductOfPrimesBetweenLToRTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:09.982 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.sisllc.mathformulas.impl.SumOfSquaresTest]: SumOfSquaresTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:09.992 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.sisllc.mathformulas.impl.UnionIntersDiffCompleTest]: UnionIntersDiffCompleTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:10.002 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.sisllc.mathformulas.stringmanipulation.CapitalizeFirstLetterTest]: CapitalizeFirstLetterTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:10.010 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.sisllc.mathformulas.stringmanipulation.ExampleTest]: ExampleTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:10.019 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.sisllc.mathformulas.utils.PhoneNumberExtensionTest]: PhoneNumberExtensionTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:10.027 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.sisllc.mathformulas.utils.ValidateNpiWithRegistryTest]: ValidateNpiWithRegistryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:52:10.037 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.spring5.ProjectTest]: ProjectTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO] Running com.interview.capitalonesignalmock.C1CodeSignalTest
+testLongestSubstring_Parameterized - Example of Parameterized Test (JUnit 5):
+testLongestSubstring_Parameterized - Example of Parameterized Test (JUnit 5):
+testLongestSubstring_Parameterized - Example of Parameterized Test (JUnit 5):
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.162 s -- in com.interview.capitalonesignalmock.C1CodeSignalTest
+[INFO] Running com.interview.codesignal.ExampleParameterizedTest
+testLongestSubstring_Parameterized - Example of Parameterized Test (JUnit 5):
+testLongestSubstring_Parameterized - Example of Parameterized Test (JUnit 5):
+testLongestSubstring_Parameterized - Example of Parameterized Test (JUnit 5):
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.137 s -- in com.interview.codesignal.ExampleParameterizedTest
+[INFO] Running com.interview.capitalonesignalmock.C1CodeSignalTest
+09:52:10.594 [main] WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer -- 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/javaugi/.m2/repository/org/json/json/20160810/json-20160810.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/javaugi/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/javaugi/.m2/repository/org/json/org.json/chargebee-1.0/org.json-chargebee-1.0.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+testMaxPathSum_NegativeTree ...
+
+Post-Order Depth-First Search left=0-right=0-node.val=9-rtnValue: 9
+ (Math.max(maxSum, left + right + node.val)) -maxSum=9
+Post-Order Depth-First Search left=0-right=0-node.val=15-rtnValue: 15
+ (Math.max(maxSum, left + right + node.val)) -maxSum=15
+Post-Order Depth-First Search left=0-right=0-node.val=7-rtnValue: 7
+ (Math.max(maxSum, left + right + node.val)) -maxSum=15
+Post-Order Depth-First Search left=15-right=7-node.val=20-rtnValue: 35
+ (Math.max(maxSum, left + right + node.val)) -maxSum=42
+Post-Order Depth-First Search left=9-right=35-node.val=-10-rtnValue: 25
+ (Math.max(maxSum, left + right + node.val)) -maxSum=42testArrayManipulation Test 1 The result is: 4 from input: [I@56b8aaf1
+testArrayManipulation Test 2 The result is: 4 from input: [I@14168e1
+testArrayManipulation Test 3 The result is: -1 from input: [I@16a5c7e4
+testStringManipulation Test 1 The result is: 5 from input: ccaabbb
+testStringManipulation Test 2 The result is: 4 from input: dkfkflfhf
+testStringManipulation Test 3 The result is: 3 from input: cfdfehgf
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.296 s -- in com.interview.capitalonesignalmock.C1CodeSignalTest
+[INFO] Running com.interview.capitalonesignalmock.Code1WarmUpSecondLargestTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in com.interview.capitalonesignalmock.Code1WarmUpSecondLargestTest
+[INFO] Running com.interview.capitalonesignalmock.Code2MediumLongestSubstringTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in com.interview.capitalonesignalmock.Code2MediumLongestSubstringTest
+[INFO] Running com.interview.capitalonesignalmock.Code3HardMaxPathSumTest
+testMaxPathSum_PositiveTree ...
+
+Post-Order Depth-First Search left=0-right=0-node.val=2-rtnValue: 2
+ (Math.max(maxSum, left + right + node.val)) -maxSum=2
+Post-Order Depth-First Search left=0-right=0-node.val=3-rtnValue: 3
+ (Math.max(maxSum, left + right + node.val)) -maxSum=3
+Post-Order Depth-First Search left=2-right=3-node.val=1-rtnValue: 4
+ (Math.max(maxSum, left + right + node.val)) -maxSum=6testMaxPathSum_NegativeTree ...
+
+Post-Order Depth-First Search left=0-right=0-node.val=9-rtnValue: 9
+ (Math.max(maxSum, left + right + node.val)) -maxSum=9
+Post-Order Depth-First Search left=0-right=0-node.val=15-rtnValue: 15
+ (Math.max(maxSum, left + right + node.val)) -maxSum=15
+Post-Order Depth-First Search left=0-right=0-node.val=7-rtnValue: 7
+ (Math.max(maxSum, left + right + node.val)) -maxSum=15
+Post-Order Depth-First Search left=15-right=7-node.val=20-rtnValue: 35
+ (Math.max(maxSum, left + right + node.val)) -maxSum=42
+Post-Order Depth-First Search left=9-right=35-node.val=-10-rtnValue: 25
+ (Math.max(maxSum, left + right + node.val)) -maxSum=42testMaxPathSum_SingleNode ...
+
+Post-Order Depth-First Search left=0-right=0-node.val=1-rtnValue: 1
+ (Math.max(maxSum, left + right + node.val)) -maxSum=1[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in com.interview.capitalonesignalmock.Code3HardMaxPathSumTest
+[INFO] Running com.interview.capitalonesignalmock.Code4ExpertRateLimiterTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.009 s -- in com.interview.capitalonesignalmock.Code4ExpertRateLimiterTest
+[INFO] Running com.interview.codesignal.CodeSignalTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in com.interview.codesignal.CodeSignalTest
+[INFO] Running com.mycompany.davidlee.InventoryTest
+09:52:15.874 [main] WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer -- 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/javaugi/.m2/repository/org/json/json/20160810/json-20160810.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/javaugi/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/javaugi/.m2/repository/org/json/org.json/chargebee-1.0/org.json-chargebee-1.0.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+category = Weight
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.107 s -- in com.mycompany.davidlee.InventoryTest
+[INFO] Running com.mycompany.davidlee.ItemTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s -- in com.mycompany.davidlee.ItemTest
+[INFO] Running com.mycompany.davidlee.ReceiptTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in com.mycompany.davidlee.ReceiptTest
+[INFO] Running com.mycompany.davidlee.StoreRegisterTest
+09:52:15.973 [main] INFO com.mycompany.davidlee.StoreRegisterTest -- SETUP
+09:52:15.983 [main] INFO com.mycompany.davidlee.StoreRegisterTest -- SETUP
+09:52:15.987 [main] INFO com.mycompany.davidlee.StoreRegisterTest -- SETUP
+09:52:15.988 [main] INFO com.mycompany.davidlee.StoreRegisterTest -- whenCartEmptyThenTotalZero
+09:52:15.991 [main] INFO com.mycompany.davidlee.StoreRegisterTest -- SETUP
+09:52:15.991 [main] INFO com.mycompany.davidlee.StoreRegisterTest -- whenAdd1ThenTotal1Item
+09:52:15.994 [main] INFO com.mycompany.davidlee.StoreRegisterTest -- SETUP
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s -- in com.mycompany.davidlee.StoreRegisterTest
+[INFO] Running com.sisllc.mathformulas.ci.ch04.BinarySearchTreeTest
+root=50
+20
+30
+50
+70
+root=50
+root=50
+20
+30
+40
+50
+60
+70
+80
+search key=70-root=50
+search key=70-root=70
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s -- in com.sisllc.mathformulas.ci.ch04.BinarySearchTreeTest
+[INFO] Running com.sisllc.mathformulas.ci.ch04.GraphSearchTest
+count=6
+node=Q42Node{adjacentCount=3, vertex=a}
+ adjacent=[Q42Node{adjacentCount=0, vertex=b}, Q42Node{adjacentCount=0, vertex=c}, Q42Node{adjacentCount=1, vertex=d}]
+node=Q42Node{adjacentCount=0, vertex=b}
+ adjacent=[]
+node=Q42Node{adjacentCount=0, vertex=c}
+ adjacent=[]
+node=Q42Node{adjacentCount=1, vertex=d}
+ adjacent=[Q42Node{adjacentCount=1, vertex=e}]
+node=Q42Node{adjacentCount=1, vertex=e}
+ adjacent=[Q42Node{adjacentCount=0, vertex=f}]
+node=Q42Node{adjacentCount=0, vertex=f}
+ adjacent=[]
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in com.sisllc.mathformulas.ci.ch04.GraphSearchTest
+[INFO] Running com.sisllc.mathformulas.impl.FactorNumberIntoPrimeIntArrayTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s -- in com.sisllc.mathformulas.impl.FactorNumberIntoPrimeIntArrayTest
+[INFO] Running com.sisllc.mathformulas.impl.FibonacciRecursiveTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s -- in com.sisllc.mathformulas.impl.FibonacciRecursiveTest
+[INFO] Running com.sisllc.mathformulas.impl.MortgageCalculatorTest
+payment=1199.1
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s -- in com.sisllc.mathformulas.impl.MortgageCalculatorTest
+[INFO] Running com.sisllc.mathformulas.impl.PrimeNumbersTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s -- in com.sisllc.mathformulas.impl.PrimeNumbersTest
+[INFO] Running com.sisllc.mathformulas.impl.ProductOfPrimesBetweenLToRTest
+list=[3]
+list=[3]
+list=[3, 5]
+list=[3, 5]
+list=[3, 5, 7]
+value=3-returnValue=3
+value=5-returnValue=15
+value=7-returnValue=105
+product=105
+list=[3]
+list=[3]
+list=[3, 5]
+list=[3, 5]
+list=[3, 5, 7]
+value=3-returnValue=3
+value=5-returnValue=15
+value=7-returnValue=105
+list=[3]
+list=[3]
+list=[3, 5]
+value=3-returnValue=3
+value=5-returnValue=15
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in com.sisllc.mathformulas.impl.ProductOfPrimesBetweenLToRTest
+[INFO] Running com.sisllc.mathformulas.impl.SumOfSquaresTest
+sos.sumRecursive(3)14
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s -- in com.sisllc.mathformulas.impl.SumOfSquaresTest
+[INFO] Running com.sisllc.mathformulas.impl.UnionIntersDiffCompleTest
+intersect=[3, 5, 7]
+union=[1, 2, 3, 4, 5, 6, 7, 8, 9]
+complement=[2, 4, 6, 8]
+diff=[1, 9]
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.020 s -- in com.sisllc.mathformulas.impl.UnionIntersDiffCompleTest
+[INFO] Running com.sisllc.mathformulas.stringmanipulation.CapitalizeFirstLetterTest
+value=Good Morning
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in com.sisllc.mathformulas.stringmanipulation.CapitalizeFirstLetterTest
+[INFO] Running com.sisllc.mathformulas.stringmanipulation.ExampleTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in com.sisllc.mathformulas.stringmanipulation.ExampleTest
+[INFO] Running com.sisllc.mathformulas.utils.EventsServiceTest
+09:52:16.272 [main] INFO com.sisllc.mathformulas.utils.EventsServiceTest -- 
+** Found token FREQ=WEEKLY;WKST=SU;INTERVAL=1;BYDAY=MO,SU,FR,TH,WE,SA,TU with interval 1
+09:52:16.275 [main] INFO com.sisllc.mathformulas.utils.EventsServiceTest -- 
+** Found token FREQ=MONTHLY;INTERVAL=1;BYDAY=MO;BYSETPOS=3 with interval 1
+09:52:16.275 [main] INFO com.sisllc.mathformulas.utils.EventsServiceTest -- 
+** Found token FREQ=DAILY;INTERVAL=1 with interval 1
+09:52:16.275 [main] INFO com.sisllc.mathformulas.utils.EventsServiceTest -- 
+** Found token FREQ=MONTHLY;UNTIL=20230326;INTERVAL=1 with interval 1
+09:52:16.275 [main] INFO com.sisllc.mathformulas.utils.EventsServiceTest -- 
+** Found token FREQ=MONTHLY;INTERVAL=1;BYDAY=TU;BYSETPOS=1 with interval 1
+09:52:16.275 [main] INFO com.sisllc.mathformulas.utils.EventsServiceTest -- 
+** Found token FREQ=YEARLY;INTERVAL=1;BYMONTH=3 with interval 1
+09:52:16.275 [main] INFO com.sisllc.mathformulas.utils.EventsServiceTest -- 
+** Found token FREQ=WEEKLY;WKST=SU;INTERVAL=2 with interval 2
+09:52:16.275 [main] INFO com.sisllc.mathformulas.utils.EventsServiceTest -- 
+** Found token FREQ=DAILY;UNTIL=20230801;INTERVAL=1 with interval 1
+09:52:16.275 [main] INFO com.sisllc.mathformulas.utils.EventsServiceTest -- 
+** Found token FREQ=WEEKLY;WKST=SU;INTERVAL=1 with interval 1
+09:52:16.276 [main] INFO com.sisllc.mathformulas.utils.EventsServiceTest -- 
+** Found token FREQ=WEEKLY;WKST=SU;INTERVAL=1;BYDAY=MO,FR,WE with interval 1
+09:52:16.276 [main] INFO com.sisllc.mathformulas.utils.EventsServiceTest -- 
+** Found token FREQ=MONTHLY;INTERVAL=1 with interval 1
+09:52:16.284 [main] INFO com.sisllc.mathformulas.utils.EventsServiceTest -- 
+ *** daysDiffResult 14 k 0 
+ EventPeriodCmd{numberOfEventDates=14, intervalByWeeks=2, initialStartDate=2023-02-06, targetPeriodStart=2023-03-01, targetPeriodEnd=2023-03-31, targetPeriodUntil=null, firstEventDate=2023-03-05, lastEventDate=2023-03-18, eventPeriodSunday=2023-03-05, eventPeriodSaturday=2023-03-18}
+09:52:16.285 [main] INFO com.sisllc.mathformulas.utils.EventsServiceTest -- 
+ *** daysDiffResult 15 k 1 
+ EventPeriodCmd{numberOfEventDates=15, intervalByWeeks=2, initialStartDate=2023-02-06, targetPeriodStart=2023-04-01, targetPeriodEnd=2023-04-30, targetPeriodUntil=null, firstEventDate=2023-04-02, lastEventDate=2023-04-30, eventPeriodSunday=2023-04-02, eventPeriodSaturday=2023-04-15}
+09:52:16.286 [main] INFO com.sisllc.mathformulas.utils.EventsServiceTest -- 
+ *** daysDiffResult 17 k 2 
+ EventPeriodCmd{numberOfEventDates=17, intervalByWeeks=2, initialStartDate=2023-02-06, targetPeriodStart=2023-05-01, targetPeriodEnd=2023-05-31, targetPeriodUntil=null, firstEventDate=2023-05-01, lastEventDate=2023-05-31, eventPeriodSunday=2023-04-30, eventPeriodSaturday=2023-05-13}
+09:52:16.286 [main] INFO com.sisllc.mathformulas.utils.EventsServiceTest -- 
+ *** daysDiffResult 14 k 0 
+ EventPeriodCmd{numberOfEventDates=14, intervalByWeeks=2, initialStartDate=2023-02-06, targetPeriodStart=2023-03-01, targetPeriodEnd=2023-03-31, targetPeriodUntil=null, firstEventDate=2023-03-05, lastEventDate=2023-03-18, eventPeriodSunday=2023-03-05, eventPeriodSaturday=2023-03-18}
+09:52:16.287 [main] INFO com.sisllc.mathformulas.utils.EventsServiceTest -- 
+ *** daysDiffResult 15 k 1 
+ EventPeriodCmd{numberOfEventDates=15, intervalByWeeks=2, initialStartDate=2023-02-06, targetPeriodStart=2023-04-01, targetPeriodEnd=2023-04-30, targetPeriodUntil=null, firstEventDate=2023-04-02, lastEventDate=2023-04-30, eventPeriodSunday=2023-04-02, eventPeriodSaturday=2023-04-15}
+09:52:16.287 [main] INFO com.sisllc.mathformulas.utils.EventsServiceTest -- 
+ *** daysDiffResult 17 k 2 
+ EventPeriodCmd{numberOfEventDates=17, intervalByWeeks=2, initialStartDate=2023-02-06, targetPeriodStart=2023-05-01, targetPeriodEnd=2023-05-31, targetPeriodUntil=null, firstEventDate=2023-05-01, lastEventDate=2023-05-31, eventPeriodSunday=2023-04-30, eventPeriodSaturday=2023-05-13}
+09:52:16.287 [main] INFO com.sisllc.mathformulas.utils.EventsServiceTest -- 
+ *** daysDiffResult 13 k 0 
+ EventPeriodCmd{numberOfEventDates=13, intervalByWeeks=3, initialStartDate=2023-02-06, targetPeriodStart=2023-03-01, targetPeriodEnd=2023-03-31, targetPeriodUntil=null, firstEventDate=2023-03-19, lastEventDate=2023-03-31, eventPeriodSunday=2023-03-19, eventPeriodSaturday=2023-03-31}
+09:52:16.287 [main] INFO com.sisllc.mathformulas.utils.EventsServiceTest -- 
+ *** daysDiffResult 9 k 1 
+ EventPeriodCmd{numberOfEventDates=9, intervalByWeeks=3, initialStartDate=2023-02-06, targetPeriodStart=2023-04-01, targetPeriodEnd=2023-04-30, targetPeriodUntil=null, firstEventDate=2023-04-01, lastEventDate=2023-04-30, eventPeriodSunday=2023-03-19, eventPeriodSaturday=2023-04-08}
+09:52:16.288 [main] INFO com.sisllc.mathformulas.utils.EventsServiceTest -- 
+ *** daysDiffResult 20 k 2 
+ EventPeriodCmd{numberOfEventDates=20, intervalByWeeks=3, initialStartDate=2023-02-06, targetPeriodStart=2023-05-01, targetPeriodEnd=2023-05-31, targetPeriodUntil=null, firstEventDate=2023-05-01, lastEventDate=2023-05-20, eventPeriodSunday=2023-04-30, eventPeriodSaturday=2023-05-20}
+09:52:16.289 [main] INFO com.sisllc.mathformulas.utils.EventsServiceTest -- 
+ *** daysDiffResult 13 k 0 
+ EventPeriodCmd{numberOfEventDates=13, intervalByWeeks=3, initialStartDate=2023-02-06, targetPeriodStart=2023-03-01, targetPeriodEnd=2023-03-31, targetPeriodUntil=null, firstEventDate=2023-03-19, lastEventDate=2023-03-31, eventPeriodSunday=2023-03-19, eventPeriodSaturday=2023-03-31}
+09:52:16.289 [main] INFO com.sisllc.mathformulas.utils.EventsServiceTest -- 
+ *** daysDiffResult 9 k 1 
+ EventPeriodCmd{numberOfEventDates=9, intervalByWeeks=3, initialStartDate=2023-02-06, targetPeriodStart=2023-04-01, targetPeriodEnd=2023-04-30, targetPeriodUntil=null, firstEventDate=2023-04-01, lastEventDate=2023-04-30, eventPeriodSunday=2023-03-19, eventPeriodSaturday=2023-04-08}
+09:52:16.290 [main] INFO com.sisllc.mathformulas.utils.EventsServiceTest -- 
+ *** daysDiffResult 20 k 2 
+ EventPeriodCmd{numberOfEventDates=20, intervalByWeeks=3, initialStartDate=2023-02-06, targetPeriodStart=2023-05-01, targetPeriodEnd=2023-05-31, targetPeriodUntil=null, firstEventDate=2023-05-01, lastEventDate=2023-05-20, eventPeriodSunday=2023-04-30, eventPeriodSaturday=2023-05-20}
+09:52:16.291 [main] INFO com.sisllc.mathformulas.utils.EventsServiceTest -- 
+ *** daysDiffResult 13 k 0 
+ EventPeriodCmd{numberOfEventDates=13, intervalByWeeks=3, initialStartDate=2023-02-06, targetPeriodStart=2023-03-01, targetPeriodEnd=2023-03-31, targetPeriodUntil=null, firstEventDate=2023-03-19, lastEventDate=2023-03-31, eventPeriodSunday=2023-03-19, eventPeriodSaturday=2023-03-31}
+09:52:16.292 [main] INFO com.sisllc.mathformulas.utils.EventsServiceTest -- 
+ *** daysDiffResult 9 k 1 
+ EventPeriodCmd{numberOfEventDates=9, intervalByWeeks=3, initialStartDate=2023-02-06, targetPeriodStart=2023-04-01, targetPeriodEnd=2023-04-30, targetPeriodUntil=null, firstEventDate=2023-04-01, lastEventDate=2023-04-30, eventPeriodSunday=2023-03-19, eventPeriodSaturday=2023-04-08}
+09:52:16.292 [main] INFO com.sisllc.mathformulas.utils.EventsServiceTest -- 
+ *** daysDiffResult 20 k 2 
+ EventPeriodCmd{numberOfEventDates=20, intervalByWeeks=3, initialStartDate=2023-02-06, targetPeriodStart=2023-05-01, targetPeriodEnd=2023-05-31, targetPeriodUntil=null, firstEventDate=2023-05-01, lastEventDate=2023-05-20, eventPeriodSunday=2023-04-30, eventPeriodSaturday=2023-05-20}
+09:52:16.292 [main] INFO com.sisllc.mathformulas.utils.EventsServiceTest -- 
+ *** daysDiffResult 4 k 0 
+ EventPeriodCmd{numberOfEventDates=4, intervalByWeeks=4, initialStartDate=2023-02-06, targetPeriodStart=2023-03-01, targetPeriodEnd=2023-03-31, targetPeriodUntil=null, firstEventDate=2023-03-01, lastEventDate=2023-03-04, eventPeriodSunday=2023-02-05, eventPeriodSaturday=2023-03-04}
+09:52:16.292 [main] INFO com.sisllc.mathformulas.utils.EventsServiceTest -- 
+ *** daysDiffResult 28 k 1 
+ EventPeriodCmd{numberOfEventDates=28, intervalByWeeks=4, initialStartDate=2023-02-06, targetPeriodStart=2023-04-01, targetPeriodEnd=2023-04-30, targetPeriodUntil=null, firstEventDate=2023-04-02, lastEventDate=2023-04-29, eventPeriodSunday=2023-04-02, eventPeriodSaturday=2023-04-29}
+09:52:16.292 [main] INFO com.sisllc.mathformulas.utils.EventsServiceTest -- 
+ *** daysDiffResult 4 k 2 
+ EventPeriodCmd{numberOfEventDates=4, intervalByWeeks=4, initialStartDate=2023-02-06, targetPeriodStart=2023-05-01, targetPeriodEnd=2023-05-31, targetPeriodUntil=null, firstEventDate=2023-05-28, lastEventDate=2023-05-31, eventPeriodSunday=2023-05-28, eventPeriodSaturday=2023-05-31}
+09:52:16.293 [main] INFO com.sisllc.mathformulas.utils.EventsServiceTest -- 
+ *** daysDiffResult 4 k 0 
+ EventPeriodCmd{numberOfEventDates=4, intervalByWeeks=4, initialStartDate=2023-02-06, targetPeriodStart=2023-03-01, targetPeriodEnd=2023-03-31, targetPeriodUntil=null, firstEventDate=2023-03-01, lastEventDate=2023-03-04, eventPeriodSunday=2023-02-05, eventPeriodSaturday=2023-03-04}
+09:52:16.293 [main] INFO com.sisllc.mathformulas.utils.EventsServiceTest -- 
+ *** daysDiffResult 28 k 1 
+ EventPeriodCmd{numberOfEventDates=28, intervalByWeeks=4, initialStartDate=2023-02-06, targetPeriodStart=2023-04-01, targetPeriodEnd=2023-04-30, targetPeriodUntil=null, firstEventDate=2023-04-02, lastEventDate=2023-04-29, eventPeriodSunday=2023-04-02, eventPeriodSaturday=2023-04-29}
+09:52:16.293 [main] INFO com.sisllc.mathformulas.utils.EventsServiceTest -- 
+ *** daysDiffResult 4 k 2 
+ EventPeriodCmd{numberOfEventDates=4, intervalByWeeks=4, initialStartDate=2023-02-06, targetPeriodStart=2023-05-01, targetPeriodEnd=2023-05-31, targetPeriodUntil=null, firstEventDate=2023-05-28, lastEventDate=2023-05-31, eventPeriodSunday=2023-05-28, eventPeriodSaturday=2023-05-31}
+09:52:16.293 [main] INFO com.sisllc.mathformulas.utils.EventsServiceTest -- 
+ *** daysDiffResult 4 k 0 
+ EventPeriodCmd{numberOfEventDates=4, intervalByWeeks=4, initialStartDate=2023-02-06, targetPeriodStart=2023-03-01, targetPeriodEnd=2023-03-31, targetPeriodUntil=null, firstEventDate=2023-03-01, lastEventDate=2023-03-04, eventPeriodSunday=2023-02-05, eventPeriodSaturday=2023-03-04}
+09:52:16.293 [main] INFO com.sisllc.mathformulas.utils.EventsServiceTest -- 
+ *** daysDiffResult 28 k 1 
+ EventPeriodCmd{numberOfEventDates=28, intervalByWeeks=4, initialStartDate=2023-02-06, targetPeriodStart=2023-04-01, targetPeriodEnd=2023-04-30, targetPeriodUntil=null, firstEventDate=2023-04-02, lastEventDate=2023-04-29, eventPeriodSunday=2023-04-02, eventPeriodSaturday=2023-04-29}
+09:52:16.293 [main] INFO com.sisllc.mathformulas.utils.EventsServiceTest -- 
+ *** daysDiffResult 4 k 2 
+ EventPeriodCmd{numberOfEventDates=4, intervalByWeeks=4, initialStartDate=2023-02-06, targetPeriodStart=2023-05-01, targetPeriodEnd=2023-05-31, targetPeriodUntil=null, firstEventDate=2023-05-28, lastEventDate=2023-05-31, eventPeriodSunday=2023-05-28, eventPeriodSaturday=2023-05-31}
+09:52:16.293 [main] INFO com.sisllc.mathformulas.utils.EventsServiceTest -- 
+ *** daysDiffResult 4 k 0 
+ EventPeriodCmd{numberOfEventDates=4, intervalByWeeks=4, initialStartDate=2023-02-06, targetPeriodStart=2023-03-01, targetPeriodEnd=2023-03-31, targetPeriodUntil=null, firstEventDate=2023-03-01, lastEventDate=2023-03-04, eventPeriodSunday=2023-02-05, eventPeriodSaturday=2023-03-04}
+09:52:16.294 [main] INFO com.sisllc.mathformulas.utils.EventsServiceTest -- 
+ *** daysDiffResult 28 k 1 
+ EventPeriodCmd{numberOfEventDates=28, intervalByWeeks=4, initialStartDate=2023-02-06, targetPeriodStart=2023-04-01, targetPeriodEnd=2023-04-30, targetPeriodUntil=null, firstEventDate=2023-04-02, lastEventDate=2023-04-29, eventPeriodSunday=2023-04-02, eventPeriodSaturday=2023-04-29}
+09:52:16.294 [main] INFO com.sisllc.mathformulas.utils.EventsServiceTest -- 
+ *** daysDiffResult 4 k 2 
+ EventPeriodCmd{numberOfEventDates=4, intervalByWeeks=4, initialStartDate=2023-02-06, targetPeriodStart=2023-05-01, targetPeriodEnd=2023-05-31, targetPeriodUntil=null, firstEventDate=2023-05-28, lastEventDate=2023-05-31, eventPeriodSunday=2023-05-28, eventPeriodSaturday=2023-05-31}
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s -- in com.sisllc.mathformulas.utils.EventsServiceTest
+[INFO] Running com.sisllc.mathformulas.utils.PhoneNumberExtensionTest
+
+ ****** PhoneNumberExtensionVO{originalPhoneExtension=800-689-, formattedPhoneNumber=null, extension=null} ****** 
+ 
+
+ ****** PhoneNumberExtensionVO{originalPhoneExtension=456132789, formattedPhoneNumber=null, extension=null} ****** 
+ 
+
+ ****** PhoneNumberExtensionVO{originalPhoneExtension=ehedenhaven@gmail.co, formattedPhoneNumber=null, extension=null} ****** 
+ 
+
+ ****** PhoneNumberExtensionVO{originalPhoneExtension=sheilapohl@gmail.com, formattedPhoneNumber=null, extension=null} ****** 
+ 
+
+ ****** PhoneNumberExtensionVO{originalPhoneExtension=733-8637, formattedPhoneNumber=null, extension=null} ****** 
+ 
+
+ ****** PhoneNumberExtensionVO{originalPhoneExtension=922-1377, formattedPhoneNumber=null, extension=null} ****** 
+ 
+
+ ****** PhoneNumberExtensionVO{originalPhoneExtension=hstockford@leelinhom, formattedPhoneNumber=null, extension=null} ****** 
+ 
+
+ ****** PhoneNumberExtensionVO{originalPhoneExtension=AMNTELEVISION@YAHOO., formattedPhoneNumber=null, extension=null} ****** 
+ 
+
+ ****** PhoneNumberExtensionVO{originalPhoneExtension=mike@myhomecarellc.c, formattedPhoneNumber=null, extension=null} ****** 
+ 
+
+ ****** PhoneNumberExtensionVO{originalPhoneExtension=, formattedPhoneNumber=null, extension=null} ****** 
+ 
+
+ ****** PhoneNumberExtensionVO{originalPhoneExtension= , formattedPhoneNumber=null, extension=null} ****** 
+ 
+
+ ****** PhoneNumberExtensionVO{originalPhoneExtension=null, formattedPhoneNumber=null, extension=null} ****** 
+ 
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s -- in com.sisllc.mathformulas.utils.PhoneNumberExtensionTest
+[INFO] Running com.sisllc.mathformulas.utils.ValidateNpiWithRegistryTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in com.sisllc.mathformulas.utils.ValidateNpiWithRegistryTest
+[INFO] Running com.spring5.DummyToSkipUnitTests
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.spring5.DummyToSkipUnitTests
+[INFO] Running com.spring5.misc.EventHandlingTest
+INFO: No error handler has been configured to handle exceptions during publication.
+Publication error handlers can be added by IBusConfiguration.addPublicationErrorHandler()
+Falling back to console logger.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.287 s -- in com.spring5.misc.EventHandlingTest
+[INFO] Running com.spring5.misc.MapToJsonConverterTest
+MapToJsonConverter instantiated!
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.476 s -- in com.spring5.misc.MapToJsonConverterTest
+[INFO] Running com.spring5.mongodb.CustomerRepositoryTests
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.092 s -- in com.spring5.mongodb.CustomerRepositoryTests
+[INFO] Running com.spring5.ProjectTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in com.spring5.ProjectTest
+[INFO] Running com.spring5.repository.ProductServiceTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in com.spring5.repository.ProductServiceTest
+[INFO] Running com.spring5.repository.UserServiceTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in com.spring5.repository.UserServiceTest
+[INFO] Running com.spring5.TestConfiguration
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.spring5.TestConfiguration
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 116, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ jinvidia-saas-carloner ---
+[INFO] Building jar: E:\springtutorial\cimathformulas\target\jinvidia-saas-carloner.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  44.839 s
+[INFO] Finished at: 2025-05-10T09:52:18-04:00
+[INFO] ------------------------------------------------------------------------

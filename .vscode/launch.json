@@ -1,0 +1,2219 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "FormattedOutput",
+            "request": "launch",
+            "mainClass": "FormattedOutput",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "ApacheHttpClientWithCertificate",
+            "request": "launch",
+            "mainClass": "com.abc.utils.ApacheHttpClientWithCertificate",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "OpenCsvNpiValidation",
+            "request": "launch",
+            "mainClass": "com.abc.utils.OpenCsvNpiValidation",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "CompositeVisitor",
+            "request": "launch",
+            "mainClass": "com.compositevisitor.CompositeVisitor",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "ColorSchemeFactoryMethod",
+            "request": "launch",
+            "mainClass": "com.construct.ColorSchemeFactoryMethod",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "ColorSchemeOOD",
+            "request": "launch",
+            "mainClass": "com.construct.ColorSchemeOOD",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "FibonacciDynamicPrograming",
+            "request": "launch",
+            "mainClass": "com.dynamicpgm.FibonacciDynamicPrograming",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "FabonacciFast",
+            "request": "launch",
+            "mainClass": "com.fibonacci.FabonacciFast",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Fibonacci",
+            "request": "launch",
+            "mainClass": "com.fibonacci.Fibonacci",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "FibonacciCalc",
+            "request": "launch",
+            "mainClass": "com.fibonacci.FibonacciCalc",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "FibonacciCalculator",
+            "request": "launch",
+            "mainClass": "com.fibonacci.FibonacciCalculator",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "FibonacciDynamicPrograming(1)",
+            "request": "launch",
+            "mainClass": "com.fibonacci.FibonacciDynamicPrograming",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "FibonacciNumbers",
+            "request": "launch",
+            "mainClass": "com.fibonacci.FibonacciNumbers",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "FibonacciRecursion",
+            "request": "launch",
+            "mainClass": "com.fibonacci.FibonacciRecursion",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "FibonacciRecursive",
+            "request": "launch",
+            "mainClass": "com.fibonacci.FibonacciRecursive",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "FibonacciSeries",
+            "request": "launch",
+            "mainClass": "com.fibonacci.FibonacciSeries",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "BalancedParentheses",
+            "request": "launch",
+            "mainClass": "com.interview.BalancedParentheses",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "BigDecimalSortDescending",
+            "request": "launch",
+            "mainClass": "com.interview.BigDecimalSortDescending",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "CapitalCharInString",
+            "request": "launch",
+            "mainClass": "com.interview.CapitalCharInString",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "DateTimeManipulationDemo",
+            "request": "launch",
+            "mainClass": "com.interview.DateTimeManipulationDemo",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "LambdaExpression",
+            "request": "launch",
+            "mainClass": "com.interview.LambdaExpression",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "PrivateInnerClassMethod",
+            "request": "launch",
+            "mainClass": "com.interview.PrivateInnerClassMethod",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Streaming",
+            "request": "launch",
+            "mainClass": "com.interview.Streaming",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "TwoDimMatrix",
+            "request": "launch",
+            "mainClass": "com.interview.TwoDimMatrix",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "AwardCustomers",
+            "request": "launch",
+            "mainClass": "com.interview.amazon.AwardCustomers",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "AwardCustomersModified",
+            "request": "launch",
+            "mainClass": "com.interview.amazon.AwardCustomersModified",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "CodingAssessmentDemo",
+            "request": "launch",
+            "mainClass": "com.interview.amazon.CodingAssessmentDemo",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "LexicographicalOrdering",
+            "request": "launch",
+            "mainClass": "com.interview.amazon.LexicographicalOrdering",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Code1WarmUpArrayManipulation",
+            "request": "launch",
+            "mainClass": "com.interview.capitalonesignalmock.Code1WarmUpArrayManipulation",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Code2MediumStringProcessing",
+            "request": "launch",
+            "mainClass": "com.interview.capitalonesignalmock.Code2MediumStringProcessing",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Code3HardGraphTreeTraversal",
+            "request": "launch",
+            "mainClass": "com.interview.capitalonesignalmock.Code3HardGraphTreeTraversal",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Code4ExpertSysDesignConcurrency",
+            "request": "launch",
+            "mainClass": "com.interview.capitalonesignalmock.Code4ExpertSysDesignConcurrency",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "L1SimpleMatrixPractice",
+            "request": "launch",
+            "mainClass": "com.interview.codesignal.L1SimpleMatrixPractice",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "L2AdvancedArrayManipulation",
+            "request": "launch",
+            "mainClass": "com.interview.codesignal.L2AdvancedArrayManipulation",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "L3StringManipulation",
+            "request": "launch",
+            "mainClass": "com.interview.codesignal.L3StringManipulation",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "L4ArrayListManipulation",
+            "request": "launch",
+            "mainClass": "com.interview.codesignal.L4ArrayListManipulation",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "L5SimpleSortingAlgorithms",
+            "request": "launch",
+            "mainClass": "com.interview.codesignal.L5SimpleSortingAlgorithms",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "ConcurrentExpertSystem",
+            "request": "launch",
+            "mainClass": "com.interview.codesignal.concurrency.ConcurrentExpertSystem",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListConvertCopyInsertDelete",
+            "request": "launch",
+            "mainClass": "com.interview.hackerrank.ArrayListConvertCopyInsertDelete",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "ArraySum",
+            "request": "launch",
+            "mainClass": "com.interview.hackerrank.ArraySum",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "BitSetOperations",
+            "request": "launch",
+            "mainClass": "com.interview.hackerrank.BitSetOperations",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "CaseInsensitiveAnagramChecker",
+            "request": "launch",
+            "mainClass": "com.interview.hackerrank.CaseInsensitiveAnagramChecker",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "ClassInheritance",
+            "request": "launch",
+            "mainClass": "com.interview.hackerrank.ClassInheritance",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "ContinousUniqueIntInSubArrayMOfArrayN",
+            "request": "launch",
+            "mainClass": "com.interview.hackerrank.ContinousUniqueIntInSubArrayMOfArrayN",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "ConvertToIntegerList",
+            "request": "launch",
+            "mainClass": "com.interview.hackerrank.ConvertToIntegerList",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "CovariantReturnTypes",
+            "request": "launch",
+            "mainClass": "com.interview.hackerrank.CovariantReturnTypes",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "CurrencyFormatting",
+            "request": "launch",
+            "mainClass": "com.interview.hackerrank.CurrencyFormatting",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "GameCanWinMemoizationDSF",
+            "request": "launch",
+            "mainClass": "com.interview.hackerrank.GameCanWinMemoizationDSF",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "GenericOperations",
+            "request": "launch",
+            "mainClass": "com.interview.hackerrank.GenericOperations",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "HtmlXmlTagParser",
+            "request": "launch",
+            "mainClass": "com.interview.hackerrank.HtmlXmlTagParser",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "IteratorReturnsPartialList",
+            "request": "launch",
+            "mainClass": "com.interview.hackerrank.IteratorReturnsPartialList",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "LamdaExpressionDemo",
+            "request": "launch",
+            "mainClass": "com.interview.hackerrank.LamdaExpressionDemo",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "MessageDigectHash",
+            "request": "launch",
+            "mainClass": "com.interview.hackerrank.MessageDigectHash",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "PrimeChecker",
+            "request": "launch",
+            "mainClass": "com.interview.hackerrank.PrimeChecker",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "PriorityQueueDemo",
+            "request": "launch",
+            "mainClass": "com.interview.hackerrank.PriorityQueueDemo",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "PrmimitiveTypeCalc",
+            "request": "launch",
+            "mainClass": "com.interview.hackerrank.PrmimitiveTypeCalc",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "RegexExamples",
+            "request": "launch",
+            "mainClass": "com.interview.hackerrank.RegexExamples",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "RegexPatternTest",
+            "request": "launch",
+            "mainClass": "com.interview.hackerrank.RegexPatternTest",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "ScannerInputOutput",
+            "request": "launch",
+            "mainClass": "com.interview.hackerrank.ScannerInputOutput",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "SeriesCalculator",
+            "request": "launch",
+            "mainClass": "com.interview.hackerrank.SeriesCalculator",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "SortMerge",
+            "request": "launch",
+            "mainClass": "com.interview.hackerrank.SortMerge",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "StringDiff",
+            "request": "launch",
+            "mainClass": "com.interview.hackerrank.StringDiff",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "StringRegexTokenizer",
+            "request": "launch",
+            "mainClass": "com.interview.hackerrank.StringRegexTokenizer",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "TotalValidSubarrays",
+            "request": "launch",
+            "mainClass": "com.interview.hackerrank.TotalValidSubarrays",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "TwoDArraysDemo",
+            "request": "launch",
+            "mainClass": "com.interview.hackerrank.TwoDArraysDemo",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "UniquePairsCounter",
+            "request": "launch",
+            "mainClass": "com.interview.hackerrank.UniquePairsCounter",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearch",
+            "request": "launch",
+            "mainClass": "com.interview.sort.BinarySearch",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "MergeSort",
+            "request": "launch",
+            "mainClass": "com.interview.sort.MergeSort",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "QuickSort1",
+            "request": "launch",
+            "mainClass": "com.interview.sort.QuickSort1",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "QuickSortExample",
+            "request": "launch",
+            "mainClass": "com.interview.sort.QuickSortExample",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Quicksort",
+            "request": "launch",
+            "mainClass": "com.interview.sort.Quicksort",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "StoreRegisterImpl",
+            "request": "launch",
+            "mainClass": "com.mycompany.davidlee.impl.StoreRegisterImpl",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "ResiliencePatterns",
+            "request": "launch",
+            "mainClass": "com.patterns.ResiliencePatterns",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "ChainOfResponsibilityPattern",
+            "request": "launch",
+            "mainClass": "com.patterns.behavioral.chainresp.ChainOfResponsibilityPattern",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "CommandPattern",
+            "request": "launch",
+            "mainClass": "com.patterns.behavioral.command.CommandPattern",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "InterpreterPattern",
+            "request": "launch",
+            "mainClass": "com.patterns.behavioral.interpreter.InterpreterPattern",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "IteratorPattern",
+            "request": "launch",
+            "mainClass": "com.patterns.behavioral.iterator.IteratorPattern",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "MediatorPattern",
+            "request": "launch",
+            "mainClass": "com.patterns.behavioral.mediator.MediatorPattern",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "MementoPattern",
+            "request": "launch",
+            "mainClass": "com.patterns.behavioral.memento.MementoPattern",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "ObserverPattern",
+            "request": "launch",
+            "mainClass": "com.patterns.behavioral.observer.ObserverPattern",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "StatePattern",
+            "request": "launch",
+            "mainClass": "com.patterns.behavioral.state.StatePattern",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "TVRemoteBasic",
+            "request": "launch",
+            "mainClass": "com.patterns.behavioral.state.TVRemoteBasic",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "StrategyPolicyPattern",
+            "request": "launch",
+            "mainClass": "com.patterns.behavioral.strategy.StrategyPolicyPattern",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "TemplatePattern",
+            "request": "launch",
+            "mainClass": "com.patterns.behavioral.template.TemplatePattern",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "VisitorPattern",
+            "request": "launch",
+            "mainClass": "com.patterns.behavioral.visitor.VisitorPattern",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "SingletonPattern",
+            "request": "launch",
+            "mainClass": "com.patterns.creational.SingletonPattern",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "AbstractFactoryPattern",
+            "request": "launch",
+            "mainClass": "com.patterns.creational.abstractfactory.AbstractFactoryPattern",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "BuilderPattern",
+            "request": "launch",
+            "mainClass": "com.patterns.creational.builder.BuilderPattern",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "FactoryPattern",
+            "request": "launch",
+            "mainClass": "com.patterns.creational.factory.FactoryPattern",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "PrototypePattern",
+            "request": "launch",
+            "mainClass": "com.patterns.creational.prototype.PrototypePattern",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "CompositeEntityPattern",
+            "request": "launch",
+            "mainClass": "com.patterns.misc.compositeentity.CompositeEntityPattern",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "DelegatePattern",
+            "request": "launch",
+            "mainClass": "com.patterns.misc.delegate.DelegatePattern",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "FilterPattern",
+            "request": "launch",
+            "mainClass": "com.patterns.misc.filtercriteria.FilterPattern",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "FrontControllerPattern",
+            "request": "launch",
+            "mainClass": "com.patterns.misc.frontcontroller.FrontControllerPattern",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "InterceptingFilterPattern",
+            "request": "launch",
+            "mainClass": "com.patterns.misc.interceptingfilter.InterceptingFilterPattern",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "DependencyInjectionPattern",
+            "request": "launch",
+            "mainClass": "com.patterns.misc.jdinjection.DependencyInjectionPattern",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "MvcPattern",
+            "request": "launch",
+            "mainClass": "com.patterns.misc.mvc.MvcPattern",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "NullObjectPattern",
+            "request": "launch",
+            "mainClass": "com.patterns.misc.nullobject.NullObjectPattern",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "OptimizationExmple",
+            "request": "launch",
+            "mainClass": "com.patterns.misc.optimizeresilience.OptimizationExmple",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "PerformanceUtil",
+            "request": "launch",
+            "mainClass": "com.patterns.misc.optimizeresilience.PerformanceUtil",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "RepositoryPatternExample",
+            "request": "launch",
+            "mainClass": "com.patterns.misc.repositoy.RepositoryPatternExample",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "ServiceLocatorPattern",
+            "request": "launch",
+            "mainClass": "com.patterns.misc.servicelocator.ServiceLocatorPattern",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "SixThreadSafetyPatterns",
+            "request": "launch",
+            "mainClass": "com.patterns.sixthreadfafetypatterns.SixThreadSafetyPatterns",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "AdapterPattern",
+            "request": "launch",
+            "mainClass": "com.patterns.structural.adapter.AdapterPattern",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "BridgePattern",
+            "request": "launch",
+            "mainClass": "com.patterns.structural.bridge.BridgePattern",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "CompositePattern",
+            "request": "launch",
+            "mainClass": "com.patterns.structural.composite.CompositePattern",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "DecoratorPattern",
+            "request": "launch",
+            "mainClass": "com.patterns.structural.decorator.DecoratorPattern",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "FacadePattern",
+            "request": "launch",
+            "mainClass": "com.patterns.structural.facade.FacadePattern",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "FlyweightPattern",
+            "request": "launch",
+            "mainClass": "com.patterns.structural.flyweight.FlyweightPattern",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "ProxyPattern",
+            "request": "launch",
+            "mainClass": "com.patterns.structural.proxy.ProxyPattern",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearchTree",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.bigo.BinarySearchTree",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "QuickSort",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.bigo.QuickSort",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "QuickSortExample(1)",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.bigo.QuickSortExample",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "RabinKarp",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.bigo.RabinKarp",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "BitManipulation",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch01.BitManipulation",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "LongestUniqueSubstring",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch01.LongestUniqueSubstring",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q11UniqueChars",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch01.Q11UniqueChars",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q12Anagram",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch01.Q12Anagram",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q12Anagram2",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch01.Q12Anagram2",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q14CharArrayToString",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch01.Q14CharArrayToString",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q15Compression",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch01.Q15Compression",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q16RandomMatrix",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch01.Q16RandomMatrix",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q21DeleteDupsLinkedListNode",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch02.Q21DeleteDupsLinkedListNode",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q22NthToLastLinkedListNode",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch02.Q22NthToLastLinkedListNode",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q23DeleteLinkedListNode",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch02.Q23DeleteLinkedListNode",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q24PartitionLinkedListNode",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch02.Q24PartitionLinkedListNode",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q24PartitionLinkedListNodeB",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch02.Q24PartitionLinkedListNodeB",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q24PartitionLinkedListNodeC",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch02.Q24PartitionLinkedListNodeC",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q25LinkedListPrintForwardA",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch02.Q25LinkedListPrintForwardA",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q25LinkedListPrintForwardB",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch02.Q25LinkedListPrintForwardB",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q26LinkedListFindBeginning",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch02.Q26LinkedListFindBeginning",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q27Palindrome",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch02.Q27Palindrome",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q27PalindromeB",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch02.Q27PalindromeB",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q27PalindromeC",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch02.Q27PalindromeC",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q31StackPushPopPeek",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch03.Q31StackPushPopPeek",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q31StackTraverseShiftExpand",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch03.Q31StackTraverseShiftExpand",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q32Main",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch03.Q32Main",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q33Main",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch03.Q33Main",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q34Main",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch03.Q34Main",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q35Main",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch03.Q35Main",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q36StackMergeSort",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch03.Q36StackMergeSort",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q37Main",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch03.Q37Main",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearchTree(1)",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch04.BinarySearchTree",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q41BalanceImproved",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch04.Q41BalanceImproved",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q41BruteBalance",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch04.Q41BruteBalance",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q42GraphSearch",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch04.Q42GraphSearch",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q43CreateMinimalBST",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch04.Q43CreateMinimalBST",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q44BFSBreadthFirstSearch",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch04.Q44BFSBreadthFirstSearch",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q44DFSDepthFirstSearch",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch04.Q44DFSDepthFirstSearch",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q45CreateBST",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch04.Q45CreateBST",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q45CreateBST2",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch04.Q45CreateBST2",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q46BST",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch04.Q46BST",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q47CommonAncester",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch04.Q47CommonAncester",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q47CommonAncesterBad",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch04.Q47CommonAncesterBad",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q47CommonAncesterHelper",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch04.Q47CommonAncesterHelper",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q47CommonAncesterHelper2",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch04.Q47CommonAncesterHelper2",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q48MatchTree",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch04.Q48MatchTree",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q49NodeFindSum",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch04.Q49NodeFindSum",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q51UpdateBits",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch05.Q51UpdateBits",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q52PrintBinary",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch05.Q52PrintBinary",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q53ValidBits",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch05.Q53ValidBits",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q55BitSwap",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch05.Q55BitSwap",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q56SwapOddEvenBits",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch05.Q56SwapOddEvenBits",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q57FindMissingFromBitIntegerList",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch05.Q57FindMissingFromBitIntegerList",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q58ComputeByteNum",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch05.Q58ComputeByteNum",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q58SampleBitCode",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch05.Q58SampleBitCode",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "PrimeNumbers",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch07.PrimeNumbers",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q73RandomInt",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch07.Q73RandomInt",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q74ManipulateNumber",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch07.Q74ManipulateNumber",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q75PointEqual",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch07.Q75PointEqual",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q76CountEquivalentLines",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch07.Q76CountEquivalentLines",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q77GetKthMagicNumber",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch07.Q77GetKthMagicNumber",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q77GetMagicNthNum",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch07.Q77GetMagicNthNum",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "SieveOfEratosthenes",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch07.SieveOfEratosthenes",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q81Main",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch08.Q81Main",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q82TestCallHandler",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch08.Q82TestCallHandler",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q84Main",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch08.Q84Main",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Question",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch08.ch88.Question",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Question(1)",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch08.ch89.Question",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Question(2)",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch08.ch90.Question",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Fibonacci(1)",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch09.Fibonacci",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "FibonacciFB",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch09.FibonacciFB",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q910StackHeight",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch09.Q910StackHeight",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q911ReduceEvaluate",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch09.Q911ReduceEvaluate",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q91CountWays",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch09.Q91CountWays",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q92GetPathDP",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch09.Q92GetPathDP",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q92GetPathRecursive",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch09.Q92GetPathRecursive",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q93MagicSlowFast",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch09.Q93MagicSlowFast",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q93MagicSlowFastB",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch09.Q93MagicSlowFastB",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q94GetSubSets",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch09.Q94GetSubSets",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q95InsertCharAt",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch09.Q95InsertCharAt",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q96AddParen",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch09.Q96AddParen",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q96GenerateParen",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch09.Q96GenerateParen",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q97PrintScreen",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch09.Q97PrintScreen",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q98MakeChange",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch09.Q98MakeChange",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q99PrintBoardPlaceQueens",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch09.Q99PrintBoardPlaceQueens",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q103FindOpenNUmber",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch10.Q103FindOpenNUmber",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q103FindOpenNumber2",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch10.Q103FindOpenNumber2",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q104FindDups",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch10.Q104FindDups",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Q107ChcheMain",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch10.Q107ChcheMain",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearch(1)",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch11.Introduction.BinarySearch",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "MergeSort(1)",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch11.Introduction.MergeSort",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Quicksort(1)",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch11.Introduction.Quicksort",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "ArrayMerge",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch11.Question11_1.ArrayMerge",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "ArraySort",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch11.Question11_2.ArraySort",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "ArraySortMain",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch11.Question11_2.ArraySortMain",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "ArraySearch",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch11.Question11_3.ArraySearch",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "ArraySearch(1)",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch11.Question11_5.ArraySearch",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "FindElementFromMatrix",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch11.Question11_6.FindElementFromMatrix",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "PartitionMatrixAndSearch",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch11.Question11_6.PartitionMatrixAndSearch",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "IncreaseSequence",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch11.Question11_7.IncreaseSequence",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "RankingNodeMain",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch11.Question11_8.RankingNodeMain",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Introduction",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch14.Introduction.Introduction",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "IntroductionCollections",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch14.Introduction.IntroductionCollections",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "IntroductionOverriding",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch14.Introduction.IntroductionOverriding",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Question(3)",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch14.Question14_1.Question",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "ReflectionMain",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch14.Question14_5.ReflectionMain",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "CircularArrayRotateMain",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch14.Question14_6.CircularArrayRotateMain",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "ExampleMain",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch16.IntroductionA.ExampleMain",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "ExampleBMain",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch16.IntroductionB.ExampleBMain",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "NoLockATMMain",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch16.IntroductionLocks.NoLockATMMain",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "SynchronizationMain",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch16.IntroductionSynchronization.SynchronizationMain",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "SynchronizedBlocksMain",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch16.IntroductionSynchronizedBlocks.SynchronizedBlocksMain",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "WaitNotifyMain",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch16.IntroductionWaitNotify.WaitNotifyMain",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "PhilosopherMain",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch16.Question16_3.PhilosopherMain",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "LockFactoryMain",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch16.Question16_4.LockFactoryMain",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "ThreadMain",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch16.Question16_5.ThreadMain",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "ThreadMain(1)",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch16.Question16_6.ThreadMain",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "IntegerSwap",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch17.Question17_1.IntegerSwap",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "EncodeHashMapToCharArray",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch17.Question17_10.EncodeHashMapToCharArray",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "EncodeObjectToString",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch17.Question17_10.EncodeObjectToString",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Random7GivenRandom5NonDeterministicCalls",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch17.Question17_11.Random7GivenRandom5NonDeterministicCalls",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Random7GivenRandom5NonDeterministicNumCalls",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch17.Question17_11.Random7GivenRandom5NonDeterministicNumCalls",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "FindAllPairsFromArrayToSpecificSum",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch17.Question17_12.FindAllPairsFromArrayToSpecificSum",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "BST2CircularLinkedListConvertRecursiveReturnHead",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch17.Question17_13.BST2CircularLinkedListConvertRecursiveReturnHead",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "BST2DoublyLinkedListConvertRecursiveReturnHead",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch17.Question17_13.BST2DoublyLinkedListConvertRecursiveReturnHead",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "BST2DoublyLinkedListConvertRecursiveReturnPair",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch17.Question17_13.BST2DoublyLinkedListConvertRecursiveReturnPair",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "UnconcatenateStringINtoWordsSentence",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch17.Question17_14.UnconcatenateStringINtoWordsSentence",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "TicTacToeConvertBoardToInt",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch17.Question17_2.TicTacToeConvertBoardToInt",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "TicTacToeNNBoardToInt",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch17.Question17_2.TicTacToeNNBoardToInt",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "CountFactorialTrailingZeros",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch17.Question17_3.CountFactorialTrailingZeros",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "CountFactorialTrailingZerosBetter",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch17.Question17_3.CountFactorialTrailingZerosBetter",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "FindMaxFromTwoNumbers",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch17.Question17_4.FindMaxFromTwoNumbers",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "GameOfMasterMind",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch17.Question17_5.GameOfMasterMind",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "SortArrayFromMToNSortAll",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch17.Question17_6.SortArrayFromMToNSortAll",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "PrintPhraseFromInteger",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch17.Question17_7.PrintPhraseFromInteger",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "ArrayIntegersContinuousSequenceLargetsSum",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch17.Question17_8.ArrayIntegersContinuousSequenceLargetsSum",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "WordOccurrenceFrequencyInDictionary",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch17.Question17_9.WordOccurrenceFrequencyInDictionary",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "TwoNumberAdd",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch18.Question18_1.TwoNumberAdd",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Question(4)",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch18.Question18_10.Question",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "FindMaxSubSquireFromMatrix",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch18.Question18_11.FindMaxSubSquireFromMatrix",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "FindMaxSubSquireFromMatrixEff",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch18.Question18_11.FindMaxSubSquireFromMatrixEff",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "FindMaxSubSquireFromMatrixWithLargestSum",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch18.Question18_12.FindMaxSubSquireFromMatrixWithLargestSum",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "FindMaxSubSquireFromMatrixWithLargestSumB",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch18.Question18_12.FindMaxSubSquireFromMatrixWithLargestSumB",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "LargestRectangleOfLettersRowColumnOfWord",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch18.Question18_13.LargestRectangleOfLettersRowColumnOfWord",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "ShuffleDeckOfCards",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch18.Question18_2.ShuffleDeckOfCards",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "QuestionAlternateAlternate",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch18.Question18_3.QuestionAlternateAlternate",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "RandomIntegerMSetFromNArray",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch18.Question18_3.RandomIntegerMSetFromNArray",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "CountNumberOfTwosBetweenZeroToN",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch18.Question18_4.CountNumberOfTwosBetweenZeroToN",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "CountNumberOfTwosBetweenZeroToNBrute",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch18.Question18_4.CountNumberOfTwosBetweenZeroToNBrute",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "ShortestDistanceBetweenTwoWords",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch18.Question18_5.ShortestDistanceBetweenTwoWords",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "FindSmallestOneMfromOneBNumbers",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch18.Question18_6.FindSmallestOneMfromOneBNumbers",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "FindLongestWordMadeOfOtherWordsInTheList",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch18.Question18_7.FindLongestWordMadeOfOtherWordsInTheList",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "SearchStringFromArray",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch18.Question18_8.SearchStringFromArray",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "FindMaintainMedianUsingPriorityQueue",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.ch18.Question18_9.FindMaintainMedianUsingPriorityQueue",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "CompareBinaryToHex",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.intro.CompareBinaryToHex",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "SwapMinMax",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.intro.SwapMinMax",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "LinkedListNode",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.ci.lib.LinkedListNode",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "GCDnLCM",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.formulas.GCDnLCM",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "GreatestCommonDivisor",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.formulas.GreatestCommonDivisor",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "LeastCommonMultiple",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.formulas.LeastCommonMultiple",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "ArmstrongNumbers",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.impl.ArmstrongNumbers",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "CelsiusToFahrenheit",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.impl.CelsiusToFahrenheit",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "CollatzConjecture",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.impl.CollatzConjecture",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "CompoundInterest",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.impl.CompoundInterest",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Divisors",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.impl.Divisors",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "DotProduct",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.impl.DotProduct",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "EuclideanAlgorithm",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.impl.EuclideanAlgorithm",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "FactorNumberIntoPrimeIntArray",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.impl.FactorNumberIntoPrimeIntArray",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "FactorialRecursion",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.impl.FactorialRecursion",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "FahrenheitToCelsius",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.impl.FahrenheitToCelsius",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "FibonacciNumbers(1)",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.impl.FibonacciNumbers",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "FibonacciRecursion(1)",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.impl.FibonacciRecursion",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "FibonacciRecursive(1)",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.impl.FibonacciRecursive",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "FibonacciSeries(1)",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.impl.FibonacciSeries",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "FloydsTriangle",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.impl.FloydsTriangle",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "GameOfLife",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.impl.GameOfLife",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "HappyNumbers",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.impl.HappyNumbers",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "HarmonicNumber",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.impl.HarmonicNumber",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "HundredDoors",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.impl.HundredDoors",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "KeithNumber",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.impl.KeithNumber",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "LeibnizFormula",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.impl.LeibnizFormula",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "MortgageCalculator",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.impl.MortgageCalculator",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "PascalTriangle",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.impl.PascalTriangle",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "PrimeNumbers(1)",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.impl.PrimeNumbers",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "SieveOfEratosthenes(1)",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.impl.SieveOfEratosthenes",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "SquareRootNewtons",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.impl.SquareRootNewtons",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "SumOfSquares",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.impl.SumOfSquares",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "TaxicabNumbers",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.impl.TaxicabNumbers",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "TriangleNumbers",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.impl.TriangleNumbers",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "UnionIntersDiffComple",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.impl.UnionIntersDiffComple",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "CapitalizeFirstLetter",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.stringmanipulation.CapitalizeFirstLetter",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "ReverseWordsOfSentence",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.stringmanipulation.ReverseWordsOfSentence",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "IsomorphicStrings",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.top10algo.IsomorphicStrings",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "RemoveArrayDuplicates",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.top10algo.RemoveArrayDuplicates",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "Top10Algorithms",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.top10algo.Top10Algorithms",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "EventsService",
+            "request": "launch",
+            "mainClass": "com.sisllc.mathformulas.utils.EventsService",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "MyApplication",
+            "request": "launch",
+            "mainClass": "com.spring5.MyApplication",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "DefenseDroneSystem",
+            "request": "launch",
+            "mainClass": "com.spring5.dronesystem.DefenseDroneSystem",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "DroneFleetControlSystem",
+            "request": "launch",
+            "mainClass": "com.spring5.dronesystem.DroneFleetControlSystem",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "OperationStats",
+            "request": "launch",
+            "mainClass": "com.spring5.dronesystem.OperationStats",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "SixFundamentalThreadSafetyPatterns",
+            "request": "launch",
+            "mainClass": "com.spring5.dronesystem.SixFundamentalThreadSafetyPatterns",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "EmployeeMain",
+            "request": "launch",
+            "mainClass": "com.spring5.jpapagination.EmployeeMain",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "MbassadorDemoAppMain",
+            "request": "launch",
+            "mainClass": "com.spring5.mbassador.MbassadorDemoAppMain",
+            "projectName": "cimathformulas"
+        },
+        {
+            "type": "java",
+            "name": "SecureMessageProcessor",
+            "request": "launch",
+            "mainClass": "com.spring5.milsys.SecureMessageProcessor",
+            "projectName": "cimathformulas"
+        }
+    ]
+}

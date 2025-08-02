@@ -1,0 +1,4 @@
+#!/bin/sh
+export PROJ_HOME=E:/springtutorial/cimathformulas
+echo "go to reactivite proj from $PROJ_HOME/src/main/webapp/reactivite "
+cd $PROJ_HOME/src/main/webapp/reactivite

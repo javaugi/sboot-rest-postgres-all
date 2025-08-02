@@ -1,0 +1,108 @@
+## YAML Template.
+---
+spring:
+    config:
+      activate:
+        on-profile: david
+    servlet:
+        multipart:
+            max-file-size: 50MB
+            max-request-size: 150MB
+    main:
+        allow-circular-references: true
+##
+---
+spring:
+  kafka:
+    admin:
+      enabled: true 
+      fail-fast: false
+      auto-create: false
+    autoconfigure:
+      exclude: org.springframework.boot.autoconfigure.kafka.KafkaAutoConfiguration
+    bootstrap-servers: 127.0.0.1:9092
+    schema-registry-url: 127.0.0.1:8081
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+    consumer:
+      group-id: my-group
+      auto-offset-reset: earliest
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      properties:
+        spring.json.trusted.packages: "*"
+    listener:
+      ack-mode: MANUAL_IMMEDIATE
+    properties:        
+      request.timeout.ms: 3000         # Short request timeout (3 sec)
+      retry.backoff.ms: 1000           # Wait between retries (1 sec)
+      reconnect.backoff.max.ms: 5000   # Max backoff for reconnects
+      connections.max.idle.ms: 10000   # Close idle connections faster
+      retries: 0                       # Disable retries (optional)      
+##      security.protocol: SSL
+##      ssl.truststore.location: /path/to/truststore.jks
+##      ssl.truststore.password: ${KAFKA_TRUSTSTORE_PASSWORD}
+##      ssl.keystore.location: /path/to/keystore.jks
+##      ssl.keystore.password: ${KAFKA_KEYSTORE_PASSWORD}
+##      ssl.key.password: ${KAFKA_KEY_PASSWORD}
+##      
+---
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://your-auth-server.com
+          jwk-set-uri: https://your-auth-server.com/.well-known/jwks.json
+          audience: healthcare-api
+---
+app:
+  topics:
+    trade-events: trading.trade.events
+    file-events: trading.file.events
+    audit-events: trading.audit.events
+---
+management:
+  server:
+    port: 8081
+  endpoints:
+    web:
+      base-path: /actuator
+## 
+---
+logging:
+  level:
+    org.apache.kafka: ERROR
+    org.springframework.web.client.RestTemplate: DEBUG
+    org.springframework.ai: DEBUG    
+---
+resilience4j.circuitbreaker:
+  instances:
+    externalService:
+      registerHealthIndicator: true
+      slidingWindowType: COUNT_BASED
+      slidingWindowSize: 10
+      failureRateThreshold: 50 # Open the circuit if 50% of calls fail
+      waitDurationInOpenState: 5s # Stay open for 5 seconds
+      permittedNumberOfCallsInHalfOpenState: 3 # Allow 3 calls in half-open state
+      eventConsumerBufferSize: 10    
+#
+#
+#TODO: figure out why I need this here and in bootstrap.yml
+spring:
+  application:
+    name: testLatticeApp
+
+ribbon:
+  ServerListRefreshInterval: 1000
+
+endpoints:
+  health:
+    sensitive: false
+  restart:
+    enabled: true
+  shutdown:
+    enabled: true      

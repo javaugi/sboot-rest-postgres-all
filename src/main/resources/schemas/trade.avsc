@@ -1,0 +1,16 @@
+
+{
+  "type": "record",
+  "name": "TradeEvent",
+  "namespace": "com.your.trading.events",
+  "fields": [
+    {"name": "eventId", "type": "string"},
+    {"name": "timestamp", "type": {"type": "long", "logicalType": "timestamp-millis"}},
+    {"name": "tradeId", "type": "string"},
+    {"name": "instrumentId", "type": "string"},
+    {"name": "quantity", "type": {"type": "bytes", "logicalType": "decimal", "precision": 18, "scale": 6}},
+    {"name": "price", "type": {"type": "bytes", "logicalType": "decimal", "precision": 18, "scale": 6}},
+    {"name": "currency", "type": {"type": "enum", "name": "Currency", "symbols": ["USD", "EUR", "GBP", "JPY"]}},
+    {"name": "direction", "type": {"type": "enum", "name": "TradeDirection", "symbols": ["BUY", "SELL"]}}
+  ]
+}

@@ -1,0 +1,38 @@
+React.js tutorial
+  https://codepen.io/k3no/post/getting-started-with-reactjs
+  https://reactjs.org/tutorial/tutorial.html
+Convert React to RN: 
+  https://medium.com/@gwen_faraday/converting-a-react-app-to-react-native-d7df17968fc6
+Share Code between React and RN: 
+  https://hackernoon.com/code-reuse-using-higher-order-hoc-and-stateless-functional-components-in-react-and-react-native-6eeb503c665
+  https://hackernoon.com/react-js-a-better-introduction-to-the-most-powerful-ui-library-ever-created-ecd96e8f4621
+  https://hackernoon.com/mastering-react-functional-components-with-recompose-d4dd6ac98834
+Core UI for Dashboard: 
+  https://github.com/javaugi/coreui-free-react-admin-template
+Major Diff between React and RN: 
+  https://medium.com/@alexmngn/from-reactjs-to-react-native-what-are-the-main-differences-between-both-d6e8e88ebf24
+Flux frameowrk
+  https://facebook.github.io/flux/
+  https://github.com/facebook/flux
+  
+  https://scotch.io/@kenwheeler
+  https://scotch.io/tutorials/learning-react-getting-started-and-concepts
+  https://scotch.io/tutorials/build-a-real-time-twitter-stream-with-node-and-react-js
+  https://scotch.io/tutorials/getting-to-know-flux-the-react-js-architecture
+  https://www.cabotsolutions.com/2017/01/detailed-study-flux-react-js-application-architecture
+How to structure your project and manage static resources in React Native  
+  https://medium.freecodecamp.org/how-to-structure-your-project-and-manage-static-resources-in-react-native-6f4cfc947d92
+  https://medium.com/the-react-native-log/organizing-a-react-native-project-9514dfadaa0
+  https://hackernoon.com/structuring-projects-and-naming-components-in-react-1261b6e18d76
+Presentational and Container Components
+  https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0
+Render Props Pattern
+  https://levelup.gitconnected.com/understanding-react-render-props-by-example-71f2162fd0f2
+Higher-Order Components (HOC) pattern
+  https://levelup.gitconnected.com/understanding-react-higher-order-components-by-example-95e8c47c8006
+Add .env to react.js project and run the following after the .env file is created
+  npm install --save-dev dotenv
+  https://medium.com/@trekinbami/using-environment-variables-in-react-6b0a99d83cf5
+Run maven using cli
+  mvn clean install
+  mvn spring-boot:run

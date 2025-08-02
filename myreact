@@ -1,0 +1,4 @@
+#!/bin/sh
+export PROJ_HOME=C:/Users/javau/dev/projects/sb-j2ee/sboot-rest-postgres-all
+echo "go to my-react-app proj from $PROJ_HOME/src/main/webapp/my-react-app "
+cd ./src/main/webapp/my-react-app
